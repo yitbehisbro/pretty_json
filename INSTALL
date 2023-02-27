@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 sudo cp pretty_json.py /usr/bin/
-sudo ln -s /usr/bin/pretty_json.py /usr/bin/pretty # Symbolic link to binary file
+sudo ln -sf /usr/bin/pretty_json.py /usr/bin/pretty # Symbolic link to binary file
 
 if [ "$?" -gt 0 ]
 then
-    echo "Success!"
+    echo "Something wrong!"
 else
-    echo "Something not right!"
+    echo "Sucess!"
 fi
