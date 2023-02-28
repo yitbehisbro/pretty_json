@@ -13,4 +13,8 @@ Usage:
 <pre><code>pretty [filename ... [filename ... [filename ...] ] ]</code></pre>
 Example:    
  <pre><code>pretty abc.json cde.json</code></pre>
- 
+Usage:
+<pre><code>pretty *.json </code></pre>
+
+# Output
+The reformated json file will be saved on the directory <pre><code>PWD/reformated/</code></pre>
