@@ -80,7 +80,7 @@ Some files might not be reformated.
 Please refer /home/user/reformated/ or
 /home/user/url_to_json/ for more.
 <b>yitbe@ubuntu:~$</b>
-<b>yitbe@ubuntu:~$</b> less url_to_json/2023-02-28-15-03-57.json
+<b>yitbe@ubuntu:~$</b> less url_to_json/2023-02-28-15-03-57.json                # https://jsonplaceholder.typicode.com/users/1
 
 {
   "id": 1,
@@ -108,7 +108,7 @@ Please refer /home/user/reformated/ or
 url_to_json/2023-02-28-15-03-57.json (END)
 
 <b>yitbe@ubuntu:~$</b>
-<b>yitbe@ubuntu:~$</b> less url_to_json/2023-02-28-15-03-45.json
+<b>yitbe@ubuntu:~$</b> less url_to_json/2023-02-28-15-03-45.json                  # https://www.reddit.com/r/python/hot.json
 
 {
   "kind": "Listing",
