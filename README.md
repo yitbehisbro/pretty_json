@@ -78,6 +78,53 @@ Please refer /home/user/reformated/ or
   }
 }
 url_to_json/2023-02-28-15-03-57.json (END)
+
+<b>yitbe@ubuntu:~$</b>
+<b>yitbe@ubuntu:~$</b> less url_to_json/2023-02-28-15-03-45.json
+
+{
+  "kind": "Listing",
+  "data": {
+    "after": "t3_11dza2n",
+    "dist": 27,
+    "modhash": "",
+    "geo_filter": null,
+    "children": [
+      {
+        "kind": "t3",
+        "data": {
+          "approved_at_utc": null,
+          "subreddit": "Python",
+          "selftext": "Tell /r/python what you're working on this week! You can be bragging, grousing, sharing your passion, or explaining your pain. Talk about your current project or your pet project; whatever you want to share.",
+          "author_fullname": "t2_145f96",
+          "saved": false,
+          "mod_reason_title": null,
+          "gilded": 0,
+          "clicked": false,
+          "title": "Sunday Daily Thread: What's everyone working on this week?",
+          "link_flair_richtext": [
+            {
+              "e": "text",
+              "t": "Daily Thread"
+            }
+          ],
+          "subreddit_name_prefixed": "r/Python",
+          "hidden": false,
+          "pwls": 6,
+          "link_flair_css_class": "daily-thread",
+          "downs": 0,
+          "thumbnail_height": null,
+          "top_awarded_type": null,
+          "hide_score": false,
+          "name": "t3_11bzuxb",
+          "quarantine": false,
+          "link_flair_text_color": "light",
+          "upvote_ratio": 1.0,
+          "author_flair_background_color": "#7289da",
+          "subreddit_type": "public",
+          "ups": 3,
+          "total_awards_received": 0,
+url_to_json/2023-02-28-15-03-45.json
 </code></pre>
 # Output
 The reformated json file will be saved on the directory <pre><code>$PWD/reformated/</code></pre>
