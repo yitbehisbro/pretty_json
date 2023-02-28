@@ -38,7 +38,35 @@ Usage:
 Usage:
 <pre><code>pretty URL </code></pre>
 Example:
-<pre><code><b>yitbe@ubuntu:~$</b> pretty https://www.reddit.com/r/python/hot.json https://jsonplaceholder.typicode.com/users/1
+<pre><code>
+<b>yitbe@ubuntu:~$</b> curl https://www.reddit.com/r/python/hot.json
+{"kind": "Listing", "data": {"after": "t3_11dpfze", "dist": 27, "modhash": "", "geo_filter": null, "children": [{"kind": "t3", "data": {"approved_at_utc": null, "subreddit": "Python", "selftext": "Tell /r/python what you're working on this week! You can be bragging, grousing, sharing your passion, or explaining your pain. Talk about your current project or your pet project; whatever you want to share.", "author_fullname": "t2_145f96", "saved": false, "mod_reason_title": null, "gilded": 0, "clicked": false, "title": "Sunday Daily Thread: What's everyone working on this week?", "link_flair_richtext": [{"e": "text", "t": "Daily Thread"}], "subreddit_name_prefixed": "r/Python", ...
+<b>yitbe@ubuntu:~$</b>
+<b>yitbe@ubuntu:~$</b> curl https://jsonplaceholder.typicode.com/users/1
+{
+  "id": 1,
+  "name": "Leanne Graham",
+  "username": "Bret",
+  "email": "Sincere@april.biz",
+  "address": {
+    "street": "Kulas Light",
+    "suite": "Apt. 556",
+    "city": "Gwenborough",
+    "zipcode": "92998-3874",
+    "geo": {
+      "lat": "-37.3159",
+      "lng": "81.1496"
+    }
+  },
+  "phone": "1-770-736-8031 x56442",
+  "website": "hildegard.org",
+  "company": {
+    "name": "Romaguera-Crona",
+    "catchPhrase": "Multi-layered client-server neural-net",
+    "bs": "harness real-time e-markets"
+  }
+}<b>yitbe@ubuntu:~$</b>
+<b>yitbe@ubuntu:~$</b> pretty https://www.reddit.com/r/python/hot.json https://jsonplaceholder.typicode.com/users/1
 
 Please wait...
 
