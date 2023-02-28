@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-sudo cp pretty_json.py /usr/bin/
+sudo cp pretty_json.py from_web.py /usr/bin/
 sudo ln -sf /usr/bin/pretty_json.py /usr/bin/pretty # Symbolic link to binary file
 
 if [ "$?" -gt 0 ]
