@@ -19,7 +19,20 @@ Reformats the json file as well as a fetches from URL.
 Usage:    
 <pre><code>pretty [filename ... [filename ... [filename ...] ] ]</code></pre>
 Example:    
- <pre><code><b>yitbe@ubuntu:~$</b> pretty abc.json cde.json</code></pre>
+<pre><code><b>yitbe@ubuntu:~$</b> pretty abc.json cde.json fgh.json
+
+Please wait...
+Will be created at "reformated/abc.json"
+Done.
+--
+Will be created at "reformated/cde.json"
+Done.
+--
+Will be created at "reformated/fgh.json"
+Done.
+--
+<b>yitbe@ubuntu:~$</b>
+</code></pre>
 Usage:
 <pre><code><b>yitbe@ubuntu:~$</b> pretty *.json </code></pre>
 Usage:
